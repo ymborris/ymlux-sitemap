@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 
   <style>
-    body { font-family: system-ui, sans-serif; margin:0; background:#f9f9f9; color:#222; line-height:1.6; }
+    body { font-family: 'Inter', system-ui, sans-serif; margin:0; background:#f9f9f9; color:#222; line-height:1.6; }
     .container { max-width:1200px; margin:40px auto; padding:0 20px; }
     h1 { text-align:center; color:#c2185b; margin-bottom:10px; }
     h2 { color:#444; border-bottom:2px solid #eee; padding-bottom:8px; margin:50px 0 20px; }
@@ -31,7 +31,7 @@
     summary { cursor:pointer; font-weight:bold; color:#c2185b; }
     footer { text-align:center; padding:40px 20px; color:#777; border-top:1px solid #ddd; margin-top:80px; font-size:0.95rem; }
 
-    :root {
+    .tp-section {
       --tp-red:    #e53e3e;
       --tp-dark:   #1a1a1a;
       --tp-gray:   #4a4a4a;
@@ -41,14 +41,11 @@
     .tp-top-bar { background:var(--tp-dark); color:white; font-size:0.84rem; padding:8px 0; text-align:center; }
     .tp-header { position:sticky; top:0; background:white; border-bottom:1px solid var(--tp-border); z-index:1000; }
     .tp-nav-container { max-width:1480px; margin:0 auto; padding:0 24px; display:flex; justify-content:space-between; align-items:center; height:72px; }
-    .tp-logo { font-family:'Playfair Display', serif; font-size:2.1rem; font-weight:700; color:var(--tp-red); letter-spacing:-1px; }
-    .tp-nav-links { display:flex; gap:28px; }
-    .tp-nav-link { font-weight:500; font-size:0.97rem; }
-    .tp-nav-link:hover { color:var(--tp-red); }
+    .tp-logo { font-family:'Playfair Display', serif; font-size:2.1rem; font-weight:700; color:var(--tp-red); letter-spacing:-1px; text-decoration:none; }
     .tp-hero { background:linear-gradient(135deg, #111827 0%, #1f2937 100%); color:white; padding:100px 24px 80px; text-align:center; }
-    .tp-hero h1 { font-family:'Playfair Display', serif; font-size:clamp(2.8rem,7vw,5.6rem); margin-bottom:24px; line-height:1.05; }
+    .tp-hero h1 { font-family:'Playfair Display', serif; font-size:clamp(2.8rem,7vw,5.6rem); margin-bottom:24px; line-height:1.05; color:white; }
     .tp-hero p { font-size:1.28rem; max-width:720px; margin:0 auto 32px; opacity:0.92; }
-    .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; }
+    .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; text-decoration:none; }
     .tp-btn:hover { background:#c53030; transform:translateY(-2px); }
     .tp-categories { max-width:1480px; margin:80px auto; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; }
     .tp-category-card { position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:12px; background:#f3f4f6; cursor:pointer; transition:transform 0.3s; }
@@ -76,12 +73,9 @@
   <h1>YMLux Merch – Central Hub (All Platforms)</h1>
   <p class="intro">One-page access to your shops & designs: sarcastic dad/mom humor, minimalist line art, dad/mom jokes, holiday satire, timeless romance, quiet luxury aesthetics across POD platforms.</p>
 
-  <!-- Spreadshop (ymlux.shop branded store) -->
   <section id="ymlux-shop">
-    <header>
-      <h1>Welcome to My Page</h1>
-      <p>Featuring YMLux – sarcastic, funny, and relatable apparel & gifts!</p>
-    </header>
+    <h2>Welcome to My Page</h2>
+    <p>Featuring YMLux – sarcastic, funny, and relatable apparel & gifts!</p>
 
     <h2>YMLux Shop – Funny & Sarcastic Apparel & Gifts</h2>
     <p>Check out unique designs with humor, mom life, dad jokes, romance, and more. Print-on-demand tees, hoodies, mugs, accessories and organic options. Powered by Spreadshop.</p>
@@ -116,77 +110,43 @@
     </ul>
 
     <h3>Men's Collections & Filters – All Variants</h3>
-    <p>Expanded list of men's apparel filters, collections, and product variants (dad jokes, festive season, romance, sarcastic mom life, etc.). Click to expand.</p>
+    <p>Expanded list of men's apparel filters, collections, and product variants (dad jokes, festive season, romance, sarcastic mom life, etc.).</p>
     <details>
       <summary>Expand to see all Men's URLs (~300+ variants)</summary>
       <ul>
         <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+new+apparel?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day New Apparel</a></li>
         <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+polo+shirts?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day Polo Shirts</a></li>
-        <!-- ... add your full men's list here if needed ... -->
       </ul>
     </details>
 
     <h3>All Product Variants & Filters (Expanded List)</h3>
-    <p>Here are all the individual URLs you provided (deduplicated where identical). Click to expand the full list.</p>
+    <p>Here are all the individual URLs you provided (deduplicated where identical).</p>
     <details>
       <summary>Expand to see all ~300+ URLs</summary>
       <ul>
         <li><a href="https://www.ymlux.shop/" target="_blank" rel="noopener noreferrer">https://www.ymlux.shop/</a></li>
         <li><a href="https://www.ymlux.shop/about" target="_blank" rel="noopener noreferrer">https://www.ymlux.shop/about</a></li>
-        <!-- ... rest of your variant list ... -->
       </ul>
     </details>
 
     <p><small>All links open in a new tab. Shop safe & have fun!</small></p>
   </section>
 
-  <!-- Spreadshirt Marketplace Shop -->
   <h2>Spreadshirt Marketplace Shop</h2>
   <p>In addition to your branded Spreadshop at ymlux.shop, you have designs published directly on the Spreadshirt marketplace (spreadshirt.com). These are available for global buyers to discover and purchase.</p>
 
   <details>
     <summary>Expand to see your Marketplace designs (6 listed)</summary>
     <ul>
-      <li>
-        <strong>Be Mine Rose – Minimalist Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/be+mine+rose+t-shirt+minimalist+mens+premium+t-shirt-D30b9b2f4f3e1fac7?sellable=qob1qdczjmbr-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
-      <li>
-        <strong>Long Week Skeleton – Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/long+week+skeleton+t-shirt+mens+premium+t-shirt-D30bc2d7eb3df9525?sellable=qohx1g1qvdph-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
-      <li>
-        <strong>Key to My Heart – Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/key+to+my+heart+t-shirt+mens+premium+t-shirt-D30bb2090551b0aaf?sellable=qof084lnrwz3-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
-      <li>
-        <strong>My Valentine Has Four Paws – Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/my+valentine+has+four+paws+t-shirt+mens+premium+t-shirt-D30b9e43a10c394ea?sellable=qobkxo1tp7u2-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
-      <li>
-        <strong>My Own Damn Valentine – Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/my+own+damn+valentine+t-shirt+mens+premium+t-shirt-D30b9ceac1482dcaf?sellable=qobcj8mblwvj-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
-      <li>
-        <strong>'Tis the Season to Be Tipsy – Men's Premium T-Shirt</strong><br>
-        <a href="https://www.spreadshirt.com/shop/design/tis+the+season+to+be+tipsy+t-shirt+mens+premium+t-shirt-D30b5d285fd01b097?sellable=qo0axqmb85g7-812" target="_blank" rel="noopener noreferrer">
-          View on Spreadshirt Marketplace
-        </a>
-      </li>
+      <li><strong>Be Mine Rose – Minimalist Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/be+mine+rose+t-shirt+minimalist+mens+premium+t-shirt-D30b9b2f4f3e1fac7?sellable=qob1qdczjmbr-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+      <li><strong>Long Week Skeleton – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/long+week+skeleton+t-shirt+mens+premium+t-shirt-D30bc2d7eb3df9525?sellable=qohx1g1qvdph-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+      <li><strong>Key to My Heart – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/key+to+my+heart+t-shirt+mens+premium+t-shirt-D30bb2090551b0aaf?sellable=qof084lnrwz3-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+      <li><strong>My Valentine Has Four Paws – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+valentine+has+four+paws+t-shirt+mens+premium+t-shirt-D30b9e43a10c394ea?sellable=qobkxo1tp7u2-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+      <li><strong>My Own Damn Valentine – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+own+damn+valentine+t-shirt+mens+premium+t-shirt-D30b9ceac1482dcaf?sellable=qobcj8mblwvj-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+      <li><strong>'Tis the Season to Be Tipsy – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/tis+the+season+to+be+tipsy+t-shirt+mens+premium+t-shirt-D30b5d285fd01b097?sellable=qo0axqmb85g7-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
     </ul>
   </details>
 
-  <!-- Redbubble Section -->
   <h2>Redbubble – YMLux Shop</h2>
   <p><span class="platform">Main Shop:</span> <a href="https://www.redbubble.com/people/YMLux/shop" target="_blank">redbubble.com/people/YMLux/shop</a></p>
   <h3>Featured Designs</h3>
@@ -197,7 +157,6 @@
     <li><a href="https://www.redbubble.com/i/poster/Happy-New-Year-2026-Prosperity-Design-Festive-Champagne-Fireworks-Graphic-New-Year-s-Resolution-Goal-Setter-Gift-by-YMLux/175748355.LVTDI" target="_blank">Happy New Year 2026 – Champagne & Fireworks</a></li>
   </ul>
 
-  <!-- Threadless Section -->
   <h2>Threadless – YMLux Shop</h2>
   <section id="ymlux-threadless">
     <h2>YMLux on Threadless – Minimalist Wit & Elegant Humor</h2>
@@ -254,8 +213,8 @@
     </details>
   </section>
 
-  <!-- TeePublic Section -->
-  <section id="teepublic">
+  <div class="tp-section">
+
     <div class="tp-top-bar">
       Free shipping on orders $35+ • 30-day returns • New designs added daily
     </div>
@@ -309,9 +268,8 @@
         <div class="tp-product-price">$22–$38</div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- ArtsAdd Section -->
   <h2>ArtsAdd – YMLux Store</h2>
   <div class="section">
     <h1>YMLux on ArtsAdd – Your Store & Product Links</h1>
@@ -373,9 +331,8 @@
       Generated for Taleteh / YMLux – January 22, 2026<br>
       ArtsAdd is your POD platform here (similar to Redbubble but with different margins/products).
     </p>
-  </section>
+  </div>
 
-  <!-- Zazzle Section -->
   <h2>Zazzle – YMLux_Designs Store</h2>
   <p><span class="platform">Main Store:</span> <a href="https://www.zazzle.com/store/ymlux_designs" target="_blank">www.zazzle.com/store/ymlux_designs</a></p>
   <p>YMLux_Designs – Boston-based, bringing fresh high-quality digital designs: bold typography, subtle humor, nature-inspired, sarcastic dad/mom themes, Irish emblems, romance, festive/dark academia.</p>
@@ -388,7 +345,6 @@
     <li><a href="https://www.zazzle.com/new_years_resolution_t_shirt_ornate_scroll_t_shirt-256701399950467148" target="_blank">New Year's Resolution Ornate Scroll T-Shirt</a></li>
   </ul>
 
-  <!-- Creator Spring – ymlux.creator-spring.com -->
   <h2>Creator Spring – ymlux.creator-spring.com</h2>
   <p>Your full Creator Spring store with apparel, drinkware, homeware, stickers, wall art, and more. Browse categories, paginated listings, and individual products below.</p>
 
