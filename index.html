@@ -53,7 +53,9 @@
     .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; }
     .tp-btn:hover { background:#c53030; transform:translateY(-2px); }
     .tp-categories { max-width:1480px; margin:80px auto; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; }
-    .tp-category-card { position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:12px; background:#f3f4f6; }
+    .tp-category-card { position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:12px; background:#f3f4f6; cursor:pointer; transition:transform 0.3s; }
+    .tp-category-card:hover { transform:scale(1.03); }
+    .tp-category-card a { display:block; height:100%; }
     .tp-category-card img { width:100%; height:100%; object-fit:cover; transition:transform 0.4s ease; }
     .tp-category-card:hover img { transform:scale(1.08); }
     .tp-category-title { position:absolute; bottom:24px; left:24px; color:white; font-size:1.8rem; font-weight:700; text-shadow:0 3px 12px rgba(0,0,0,0.7); }
@@ -162,7 +164,7 @@
     <li><a href="https://www.redbubble.com/i/poster/Happy-New-Year-2026-Prosperity-Design-Festive-Champagne-Fireworks-Graphic-New-Year-s-Resolution-Goal-Setter-Gift-by-YMLux/175748355.LVTDI" target="_blank">Happy New Year 2026 – Champagne & Fireworks</a></li>
   </ul>
 
-  <!-- Threadless Section – with CLICKABLE collections -->
+  <!-- Threadless Section -->
   <h2>Threadless – YMLux Shop</h2>
   <section id="ymlux-threadless">
     <h2>YMLux on Threadless – Minimalist Wit & Elegant Humor</h2>
@@ -215,12 +217,11 @@
       <summary>Click to expand all Threadless URLs (~500+ links)</summary>
       <ul>
         <li><a href="https://ymlux.threadless.com/" target="_blank" rel="noopener noreferrer">YMLux Threadless Homepage</a></li>
-        <!-- Add the rest of your Threadless URLs here if you have them -->
       </ul>
     </details>
   </section>
 
-  <!-- TeePublic Section -->
+  <!-- TeePublic Section – with CLICKABLE category images -->
   <section id="teepublic">
     <div class="tp-top-bar">
       Free shipping on orders $35+ • 30-day returns • New designs added daily
@@ -239,30 +240,30 @@
     </section>
 
     <section class="tp-categories">
-      <div class="tp-category-card">
-        <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800" alt="Sarcastic Dad/Mom">
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=dad+jokes" class="tp-category-card">
+        <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800" alt="Dad Jokes">
         <div class="tp-category-title">Dad Jokes</div>
-      </div>
-      <div class="tp-category-card">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800" alt="Minimalist Romance">
+      </a>
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=romance+timeless" class="tp-category-card">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800" alt="Timeless Romance">
         <div class="tp-category-title">Timeless Romance</div>
-      </div>
-      <div class="tp-category-card">
+      </a>
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=holiday+satire" class="tp-category-card">
         <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800" alt="Holiday Satire">
         <div class="tp-category-title">Holiday Satire</div>
-      </div>
-      <div class="tp-category-card">
+      </a>
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=quiet+luxury" class="tp-category-card">
         <img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=800" alt="Quiet Luxury">
         <div class="tp-category-title">Quiet Luxury</div>
-      </div>
-      <div class="tp-category-card">
+      </a>
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=sarcastic" class="tp-category-card">
         <img src="https://images.unsplash.com/photo-1542273917363-6d4d3b2d8e5e?w=800" alt="Sarcastic Humor">
         <div class="tp-category-title">Sarcastic</div>
-      </div>
-      <div class="tp-category-card">
+      </a>
+      <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=mom+life" class="tp-category-card">
         <img src="https://images.unsplash.com/photo-1589829545856-d10d7b6d8b7f?w=800" alt="Mom Life">
         <div class="tp-category-title">Mom Life</div>
-      </div>
+      </a>
     </section>
 
     <h2 class="tp-section-title">Trending YMLux Designs on TeePublic</h2>
