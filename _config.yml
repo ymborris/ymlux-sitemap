@@ -1,0 +1,6 @@
+title: YMLux Hub
+description: All Merch Platforms Hub
+baseurl: "" 
+url: "https://sitemap.ymlux.shop"
+markdown: kramdown
+theme: minima
