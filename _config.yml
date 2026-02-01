@@ -1,3 +1,7 @@
 theme: minima
 baseurl: ""
 url: "https://sitemap.ymlux.shop"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
