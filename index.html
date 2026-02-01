@@ -33,21 +33,30 @@
     .tp-header { position:sticky; top:0; background:white; border-bottom:1px solid var(--tp-border); z-index:1000; }
     .tp-nav-container { max-width:1480px; margin:0 auto; padding:0 24px; display:flex; justify-content:space-between; align-items:center; height:72px; }
     .tp-logo { font-family:'Playfair Display', serif; font-size:2.1rem; font-weight:700; color:var(--tp-red); letter-spacing:-1px; }
+    .tp-nav-links { display:flex; gap:28px; }
+    .tp-nav-link { font-weight:500; font-size:0.97rem; }
+    .tp-nav-link:hover { color:var(--tp-red); }
     .tp-hero { background:linear-gradient(135deg, #111827 0%, #1f2937 100%); color:white; padding:100px 24px 80px; text-align:center; }
     .tp-hero h1 { font-family:'Playfair Display', serif; font-size:clamp(2.8rem,7vw,5.6rem); margin-bottom:24px; line-height:1.05; }
     .tp-hero p { font-size:1.28rem; max-width:720px; margin:0 auto 32px; opacity:0.92; }
-    .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; text-decoration:none; }
+    .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; }
+    .tp-btn:hover { background:#c53030; transform:translateY(-2px); }
     .tp-categories { max-width:1480px; margin:80px auto; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; }
     .tp-category-card { position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:12px; background:#f3f4f6; cursor:pointer; transition:transform 0.3s; }
+    .tp-category-card:hover { transform:scale(1.03); }
+    .tp-category-card a { display:block; height:100%; }
     .tp-category-card img { width:100%; height:100%; object-fit:cover; transition:transform 0.4s ease; }
+    .tp-category-card:hover img { transform:scale(1.08); }
     .tp-category-title { position:absolute; bottom:24px; left:24px; color:white; font-size:1.8rem; font-weight:700; text-shadow:0 3px 12px rgba(0,0,0,0.7); }
     .tp-section-title { text-align:center; font-size:2.4rem; margin:100px 0 60px; font-family:'Playfair Display', serif; }
     .tp-product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:32px; max-width:1480px; margin:0 auto; padding:0 24px; }
     .tp-product-card { text-align:center; }
     .tp-product-image { aspect-ratio:1/1.2; background:#f9fafb; border-radius:10px; overflow:hidden; margin-bottom:16px; }
     .tp-product-image img { width:100%; height:100%; object-fit:contain; transition:transform 0.35s; }
+    .tp-product-card:hover .tp-product-image img { transform:scale(1.06); }
     .tp-product-title { font-weight:600; margin-bottom:8px; }
     .tp-product-price { color:#059669; font-weight:700; }
+    .note { background: #fff3cd; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; text-align: center; }
   </style>
 </head>
 <body>
@@ -70,57 +79,179 @@
     <p class="intro">One-page access to your shops & designs: sarcastic dad/mom humor, minimalist line art, dad/mom jokes, holiday satire, timeless romance, quiet luxury aesthetics across POD platforms.</p>
 
     <section id="ymlux-shop">
+      <header>
+        <h1>Welcome to My Page</h1>
+        <p>Featuring YMLux – sarcastic, funny, and relatable apparel & gifts!</p>
+      </header>
       <h2>YMLux Shop – Funny & Sarcastic Apparel & Gifts</h2>
+      <p>Check out unique designs with humor, mom life, dad jokes, romance, and more. Print-on-demand tees, hoodies, mugs, accessories and organic options. Powered by Spreadshop.</p>
+      <h3>Main Pages</h3>
       <ul>
-        <li><a href="https://www.ymlux.shop/" target="_blank">YMLux Homepage</a></li>
-        <li><a href="https://www.ymlux.shop/all" target="_blank">View All Products</a></li>
-        <li><a href="https://www.ymlux.shop/collections" target="_blank">Browse Collections</a></li>
-        <li><a href="https://www.ymlux.shop/about" target="_blank">About YMLux</a></li>
+        <li><a href="https://www.ymlux.shop/" target="_blank" rel="noopener noreferrer">YMLux Homepage</a></li>
+        <li><a href="https://www.ymlux.shop/all" target="_blank" rel="noopener noreferrer">View All Products</a></li>
+        <li><a href="https://www.ymlux.shop/collections" target="_blank" rel="noopener noreferrer">Browse Collections</a></li>
+        <li><a href="https://www.ymlux.shop/about" target="_blank" rel="noopener noreferrer">About YMLux</a></li>
       </ul>
+      <h3>Shop by Category</h3>
+      <ul>
+        <li><a href="https://www.ymlux.shop/men" target="_blank" rel="noopener noreferrer">Men's Apparel</a></li>
+        <li><a href="https://www.ymlux.shop/women" target="_blank" rel="noopener noreferrer">Women's Apparel</a></li>
+        <li><a href="https://www.ymlux.shop/kids+%26+babies" target="_blank" rel="noopener noreferrer">Kids & Babies</a></li>
+        <li><a href="https://www.ymlux.shop/accessories" target="_blank" rel="noopener noreferrer">Accessories (Mugs, Bags, Pillows, etc.)</a></li>
+        <li><a href="https://www.ymlux.shop/organic+products" target="_blank" rel="noopener noreferrer">Organic Products</a></li>
+      </ul>
+      <h3>Popular Collections</h3>
+      <ul>
+        <li><a href="https://www.ymlux.shop/sarcastic+mom+life+color+collection?collection=yQAvjSwMiU" target="_blank" rel="noopener noreferrer">Sarcastic Mom Life Color Collection</a></li>
+        <li><a href="https://www.ymlux.shop/sarcastic+irish+drinking+emblems?collection=mMFDqsGziQ" target="_blank" rel="noopener noreferrer">Sarcastic Irish Drinking Emblems</a></li>
+        <li><a href="https://www.ymlux.shop/color+intricate+affection+%26+romance?collection=hKAUiOCJTZ" target="_blank" rel="noopener noreferrer">Intricate Affection & Romance</a></li>
+        <li><a href="https://www.ymlux.shop/salty+%26+sweet+valentines+gifts?collection=kbqECCPmaJ" target="_blank" rel="noopener noreferrer">Salty & Sweet Valentine's Gifts</a></li>
+        <li><a href="https://www.ymlux.shop/festive+season+collection?collection=OpwSEPFkmD" target="_blank" rel="noopener noreferrer">Festive Season Collection</a></li>
+        <li><a href="https://www.ymlux.shop/minimalist+cat+humor+and+pet+parent?collection=WuYrPyMZTm" target="_blank" rel="noopener noreferrer">Minimalist Cat Humor & Pet Parent</a></li>
+        <li><a href="https://www.ymlux.shop/sarcastic+finance+and+tech+humor+co?collection=BraUupJaUg" target="_blank" rel="noopener noreferrer">Sarcastic Finance & Tech Humor</a></li>
+        <li><a href="https://www.ymlux.shop/the+obsession+vintage+apparrel?collection=yYFZIcnVyM" target="_blank" rel="noopener noreferrer">The Obsession Vintage Apparel</a></li>
+      </ul>
+      <h3>Men's Collections & Filters – All Variants</h3>
+      <details>
+        <summary>Expand to see all Men's URLs (~300+ variants)</summary>
+        <ul>
+          <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+new+apparel?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day New Apparel</a></li>
+          <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+polo+shirts?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day Polo Shirts</a></li>
+        </ul>
+      </details>
     </section>
 
-    <section id="redbubble">
-      <h2>Redbubble – YMLux Shop</h2>
-      <p><span class="platform">Main Shop:</span> <a href="https://www.redbubble.com/people/YMLux/shop" target="_blank">redbubble.com/people/YMLux/shop</a></p>
-    </section>
-
-    <section id="threadless">
-      <h2>Threadless – YMLux Shop</h2>
+    <h2>Spreadshirt Marketplace Shop</h2>
+    <p>In addition to your branded Spreadshop at ymlux.shop, you have designs published directly on the Spreadshirt marketplace (spreadshirt.com).</p>
+    <details>
+      <summary>Expand to see your Marketplace designs (6 listed)</summary>
       <ul>
-        <li><a href="https://ymlux.threadless.com/" target="_blank">YMLux Threadless Homepage</a></li>
+        <li><strong>Be Mine Rose – Minimalist Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/be+mine+rose+t-shirt+minimalist+mens+premium+t-shirt-D30b9b2f4f3e1fac7?sellable=qob1qdczjmbr-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+        <li><strong>Long Week Skeleton – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/long+week+skeleton+t-shirt+mens+premium+t-shirt-D30bc2d7eb3df9525?sellable=qohx1g1qvdph-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+        <li><strong>Key to My Heart – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/key+to+my+heart+t-shirt+mens+premium+t-shirt-D30bb2090551b0aaf?sellable=qof084lnrwz3-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+        <li><strong>My Valentine Has Four Paws – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+valentine+has+four+paws+t-shirt+mens+premium+t-shirt-D30b9e43a10c394ea?sellable=qobkxo1tp7u2-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+        <li><strong>My Own Damn Valentine – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+own+damn+valentine+t-shirt+mens+premium+t-shirt-D30b9ceac1482dcaf?sellable=qobcj8mblwvj-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
+        <li><strong>'Tis the Season to Be Tipsy – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/tis+the+season+to+be+tipsy+t-shirt+mens+premium+t-shirt-D30b5d285fd01b097?sellable=qo0axqmb85g7-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
       </ul>
+    </details>
+
+    <h2>Redbubble – YMLux Shop</h2>
+    <p><span class="platform">Main Shop:</span> <a href="https://www.redbubble.com/people/YMLux/shop" target="_blank">redbubble.com/people/YMLux/shop</a></p>
+    <h3>Featured Designs</h3>
+    <ul>
+      <li><a href="https://www.redbubble.com/i/poster/Key-to-My-Heart-T-Shirt-Minimalist-Padlock-Chain-Line-Art-Gift-Elegant-Intricate-Heart-Mechanism-Apparel-by-YMLux/176239358.LVTDI" target="_blank">Key to My Heart – Minimalist Padlock & Chain</a></li>
+      <li><a href="https://www.redbubble.com/i/poster/Majestic-Reindeer-T-Shirt-Poster-and-Mug-Symmetrical-Stag-Antlers-Intricate-Winter-Elegance-Holiday-Gift-by-YMLux/176450385.LVTDI" target="_blank">Majestic Reindeer – Symmetrical Stag Antlers</a></li>
+      <li><a href="https://www.redbubble.com/i/poster/My-Valentine-Has-Four-Paws-T-Shirt-Minimalist-Pet-Love-Line-Art-Gift-Elegant-Dog-Cat-Hand-Paw-Apparel-by-YMLux/176234424.LVTDI" target="_blank">My Valentine Has Four Paws – Pet Love Line Art</a></li>
+      <li><a href="https://www.redbubble.com/i/poster/Happy-New-Year-2026-Prosperity-Design-Festive-Champagne-Fireworks-Graphic-New-Year-s-Resolution-Goal-Setter-Gift-by-YMLux/175748355.LVTDI" target="_blank">Happy New Year 2026 – Champagne & Fireworks</a></li>
+    </ul>
+
+    <section id="ymlux-threadless">
+      <h2>YMLux on Threadless – Minimalist Wit & Elegant Humor</h2>
+      <p>Sarcastic mom/dad life, dry humor, timeless romance, holiday satire, quiet luxury aesthetics. High-contrast black line art tees, mugs, posters, blankets & more.</p>
+      <blockquote>"Art for those who appreciate both high aesthetics and dry wit. [...] high-contrast, minimalist black line art [...] self-aware, witty humor. Satirizing New Year's resolutions, celebrating simple moments, honoring timeless traditions."<footer>– YMLux About</footer></blockquote>
+      <div class="store-grid">
+        <div class="store-card">
+          <h3>Main & Featured</h3>
+          <ul>
+            <li><a href="https://ymlux.threadless.com/" target="_blank" rel="noopener noreferrer">YMLux Threadless Homepage</a></li>
+            <li><a href="https://ymlux.threadless.com/about" target="_blank" rel="noopener noreferrer">About the Shop</a></li>
+            <li><a href="https://ymlux.threadless.com/designs" target="_blank" rel="noopener noreferrer">All Designs</a></li>
+            <li><a href="https://ymlux.threadless.com/collections" target="_blank" rel="noopener noreferrer">Collections</a></li>
+            <li><a href="https://ymlux.threadless.com/gift-cards" target="_blank" rel="noopener noreferrer">Gift Cards</a></li>
+          </ul>
+        </div>
+        <div class="store-card">
+          <h3>Popular Categories</h3>
+          <ul>
+            <li><a href="https://ymlux.threadless.com/mens/t-shirt" target="_blank" rel="noopener noreferrer">Men's T-Shirts</a></li>
+            <li><a href="https://ymlux.threadless.com/womens/t-shirt" target="_blank" rel="noopener noreferrer">Women's T-Shirts</a></li>
+            <li><a href="https://ymlux.threadless.com/home/tapestry" target="_blank" rel="noopener noreferrer">Home & Living (Tapestries, Blankets)</a></li>
+            <li><a href="https://ymlux.threadless.com/accessories/mug" target="_blank" rel="noopener noreferrer">Mugs & Accessories</a></li>
+            <li><a href="https://ymlux.threadless.com/search?sort=new" target="_blank" rel="noopener noreferrer">New Arrivals</a></li>
+          </ul>
+        </div>
+        <div class="store-card">
+          <h3>Key Collections</h3>
+          <ul>
+            <li><a href="https://ymlux.threadless.com/collections/sarcastic-mom-life-color-collection-funny-modern-mom-humor" target="_blank" rel="noopener noreferrer">Sarcastic Mom Life / Dad Jokes</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/intricate-affection-timeless-romance" target="_blank" rel="noopener noreferrer">Intricate Affection & Timeless Romance</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/salty-sweet-valentines-anti-dating-humor" target="_blank" rel="noopener noreferrer">Salty & Sweet Valentines / Anti-Dating Humor</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/emerald-shenanigans-st-patricks-day" target="_blank" rel="noopener noreferrer">Emerald Shenanigans / St. Patrick's Day</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/festive-season-christmas-new-years-satire" target="_blank" rel="noopener noreferrer">Festive Season / Christmas / New Year's Satire</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/quiet-luxury-cottagecore-dark-academia" target="_blank" rel="noopener noreferrer">Quiet Luxury / Cottagecore / Dark Academia</a></li>
+            <li><a href="https://ymlux.threadless.com/collections/minimalist-cat-humor-pet-parents" target="_blank" rel="noopener noreferrer">Minimalist Cat Humor / Pet Parents</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="teepublic">
-      <div class="tp-top-bar">Free shipping on orders $35+ • 30-day returns</div>
+      <div class="tp-top-bar">Free shipping on orders $35+ • 30-day returns • New designs added daily</div>
+      <div class="tp-header">
+        <div class="tp-nav-container"><a href="https://www.teepublic.com/user/ymlux" class="tp-logo">TeePublic</a></div>
+      </div>
       <section class="tp-hero">
         <h1>Find Your Vibe.<br> Wear Your Story.</h1>
+        <p>YMLux designs – sarcastic mom/dad humor, elegant line art, holiday satire, quiet luxury.<br>Independent artist. Printed on-demand.</p>
         <a href="https://www.teepublic.com/user/ymlux" class="tp-btn">Shop YMLux Designs →</a>
       </section>
+      <section class="tp-categories">
+        <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=dad+jokes" class="tp-category-card"><img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800" alt="Dad Jokes"><div class="tp-category-title">Dad Jokes</div></a>
+        <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=romance+timeless" class="tp-category-card"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800" alt="Timeless Romance"><div class="tp-category-title">Timeless Romance</div></a>
+        <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=holiday+satire" class="tp-category-card"><img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800" alt="Holiday Satire"><div class="tp-category-title">Holiday Satire</div></a>
+        <a href="https://www.teepublic.com/user/ymlux/t-shirts?search=quiet+luxury" class="tp-category-card"><img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=800" alt="Quiet Luxury"><div class="tp-category-title">Quiet Luxury</div></a>
+      </section>
+      <h2 class="tp-section-title">Trending YMLux Designs on TeePublic</h2>
+      <div class="tp-product-grid">
+        <div class="tp-product-card">
+          <div class="tp-product-image"><img src="https://res.cloudinary.com/teepublic/image/private/s--your-mockup--/t_Preview/b_rgb:191919,c_limit,f_auto,h_313,q_90,w_313/v1/designs/85897713-bedtime-story-legend-t-shirt-same-book-100th-time-" alt="Bedtime Story Legend"></div>
+          <div class="tp-product-title">Bedtime Story Legend</div>
+          <div class="tp-product-price">$22–$38</div>
+        </div>
+      </div>
     </section>
 
     <section id="artsadd">
       <h2>ArtsAdd – YMLux Store</h2>
-      <ul>
-        <li><a href="https://www.artsadd.com/store/ymlux" target="_blank">YMLux Main Store Page</a></li>
-      </ul>
-    </section>
-
-    <section id="zazzle">
-      <h2>Zazzle – YMLux_Designs Store</h2>
-      <p><span class="platform">Main Store:</span> <a href="https://www.zazzle.com/store/ymlux_designs" target="_blank">www.zazzle.com/store/ymlux_designs</a></p>
-    </section>
-
-    <section id="creator-spring">
-      <h2>Creator Spring – ymlux.creator-spring.com</h2>
-      <details>
-        <summary>Main Pages & Categories</summary>
+      <div class="section">
+        <h1>YMLux on ArtsAdd – Your Store & Product Links</h1>
+        <p class="intro">Quick-access hub for your YMLux store, collections, sorted views, and product pages on ArtsAdd.com.</p>
+        <div class="note"><strong>Tip:</strong> Visit <a href="https://www.artsadd.com/store/ymlux" target="_blank">your full store</a> to browse/manage designs.</div>
+        <h2>Main Store Pages</h2>
         <ul>
-          <li><a href="https://ymlux.creator-spring.com/" target="_blank">Main Shop Homepage</a></li>
-          <li><a href="https://ymlux.creator-spring.com/apparel" target="_blank">Apparel</a></li>
+          <li><a href="https://www.artsadd.com/store/ymlux" target="_blank">YMLux Main Store Page</a></li>
+          <li><a href="https://www.artsadd.com/store/ymlux?sort=newest" target="_blank">Sorted: Newest First</a></li>
+          <li><a href="https://www.artsadd.com/store/ymlux?sort=popular" target="_blank">Sorted: Most Popular</a></li>
         </ul>
-      </details>
+        <h2>Your Collections / Categories</h2>
+        <ul>
+          <li><a href="https://www.artsadd.com/store/ymlux?category=emerald_shenanigans_color_collection-19048" target="_blank">Emerald Shenanigans Color Collection</a></li>
+          <li><a href="https://www.artsadd.com/store/ymlux?category=intricate_affection_valentine_color_collection-19049" target="_blank">Intricate Affection Valentine Color Collection</a></li>
+          <li><a href="https://www.artsadd.com/store/ymlux?category=sarcastic_mom_collection_funny_modern_mom_humor-19059" target="_blank">Sarcastic Mom Collection – Funny Modern Mom Humor</a></li>
+        </ul>
+      </div>
     </section>
+
+    <h2>Zazzle – YMLux_Designs Store</h2>
+    <p><span class="platform">Main Store:</span> <a href="https://www.zazzle.com/store/ymlux_designs" target="_blank">www.zazzle.com/store/ymlux_designs</a></p>
+    <h3>Example Products</h3>
+    <ul>
+      <li><a href="https://www.zazzle.com/dad_joke_generator_t_shirt_funny_dad_gift_grocery_bag-256236197832470532" target="_blank">Dad Joke Generator T Shirt Grocery Bag</a></li>
+      <li><a href="https://www.zazzle.com/traffic_light_whisperer_t_shirt_coffee_mug-256652324774861738" target="_blank">Traffic Light Whisperer T Shirt Coffee Mug</a></li>
+      <li><a href="https://www.zazzle.com/fridge_raider_elite_t_shirt-256865056617225907" target="_blank">Fridge Raider Elite T Shirt</a></li>
+    </ul>
+
+    <h2>Creator Spring – ymlux.creator-spring.com</h2>
+    <p>Your full Creator Spring store with apparel, drinkware, homeware, stickers, wall art, and more.</p>
+    <details>
+      <summary>Main Pages & Categories</summary>
+      <ul>
+        <li><a href="https://ymlux.creator-spring.com/" target="_blank" rel="noopener noreferrer">Main Shop Homepage</a></li>
+        <li><a href="https://ymlux.creator-spring.com/apparel" target="_blank" rel="noopener noreferrer">Apparel</a></li>
+        <li><a href="https://ymlux.creator-spring.com/mugs" target="_blank" rel="noopener noreferrer">Mugs</a></li>
+        <li><a href="https://ymlux.creator-spring.com/stickers" target="_blank" rel="noopener noreferrer">Stickers</a></li>
+      </ul>
+    </details>
 
     <footer>© 2026 Taleteh / YMLux • All designs original</footer>
   </div>
