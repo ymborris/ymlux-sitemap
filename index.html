@@ -13,20 +13,6 @@
   <style>
     body { font-family: system-ui, sans-serif; margin:0; background:#f9f9f9; color:#222; line-height:1.6; }
     .container { max-width:1200px; margin:40px auto; padding:0 20px; }
-    <div class="latest-posts" style="margin-bottom: 50px;">
-  <h2 style="color: #D4AF37; border-bottom: 2px solid #D4AF37;">Latest from the YMLux Blog</h2>
-  <ul>
-    {% for post in site.posts limit:3 %}
-      <li style="margin-bottom: 20px; border-left: 4px solid #D4AF37; padding-left: 15px;">
-        <h3 style="margin: 0;">
-          <a href="{{ post.url }}" style="color: #222;">{{ post.title }}</a>
-        </h3>
-        <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-<hr style="border: 0; height: 1px; background: #eee; margin: 40px 0;">
     h1 { text-align:center; color:#c2185b; margin-bottom:10px; }
     h2 { color:#444; border-bottom:2px solid #eee; padding-bottom:8px; margin:50px 0 20px; }
     h3 { color:#555; margin:30px 0 10px; font-size:1.4rem; }
@@ -44,13 +30,31 @@
     details { margin:20px 0; border:1px solid #ddd; border-radius:6px; padding:10px; background:#fff; }
     summary { cursor:pointer; font-weight:bold; color:#c2185b; }
     footer { text-align:center; padding:40px 20px; color:#777; border-top:1px solid #ddd; margin-top:80px; font-size:0.95rem; }
-
     :root {
       --tp-red:    #e53e3e;
       --tp-dark:   #1a1a1a;
       --tp-gray:   #4a4a4a;
       --tp-light:  #f8f8f8;
       --tp-border: #e2e2e2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="latest-posts" style="margin-bottom: 50px;">
+      <h2 style="color: #D4AF37; border-bottom: 2px solid #D4AF37;">Latest from the YMLux Blog</h2>
+      <ul>
+        {% for post in site.posts limit:3 %}
+          <li style="margin-bottom: 20px; border-left: 4px solid #D4AF37; padding-left: 15px;">
+            <h3 style="margin: 0;">
+              <a href="{{ post.url }}" style="color: #222;">{{ post.title }}</a>
+            </h3>
+            <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <hr style="border: 0; height: 1px; background: #eee; margin: 40px 0;">
     }
     .tp-top-bar { background:var(--tp-dark); color:white; font-size:0.84rem; padding:8px 0; text-align:center; }
     .tp-header { position:sticky; top:0; background:white; border-bottom:1px solid var(--tp-border); z-index:1000; }
