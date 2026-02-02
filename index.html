@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,6 +72,9 @@
             <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
           </li>
         {% endfor %}
+        {% if site.posts.size == 0 %}
+          <li style="color:#777; font-style:italic;">No blog posts yet – add some in the _posts folder!</li>
+        {% endif %}
       </ul>
     </div>
 
