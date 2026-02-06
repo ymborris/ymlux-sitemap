@@ -1,67 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
   <url>
-    <loc>https://www.ymlux.shop/</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://sitemap.ymlux.shop/</loc>
+    <lastmod>2026-02-06</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.ymlux.shop/all</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://sitemap.ymlux.shop/faith/lifestyle/quiet%20luxury/2026/02/03/blessed-poor-in-spirit-quiet-luxury.html</loc>
+    <lastmod>2026-02-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sitemap.ymlux.shop/faith/lifestyle/quiet%20luxury/2026/02/02/sacred-fellowship-communion-emblem.html</loc>
+    <lastmod>2026-02-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sitemap.ymlux.shop/faith/lifestyle/quiet%20luxury/2026/02/02/the-good-shepherd.html</loc>
+    <lastmod>2026-02-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sitemap.ymlux.shop/Minimalist%20Easter%20Cottagecore%20Blog/test.html</loc>
+    <lastmod>2026-02-06</lastmod>
     <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://www.redbubble.com/people/YMLux/shop</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.artsadd.com/store/ymlux</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ymlux.threadless.com/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.teepublic.com/user/ymlux</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.zazzle.com/store/ymlux_designs</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ymlux.creator-spring.com/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.ymlux.shop/sarcastic+mom+life+color+collection?collection=yQAvjSwMiU</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ymlux.shop/color+intricate+affection+%26+romance?collection=hKAUiOCJTZ</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ymlux.shop/sarcastic+finance+and+tech+humor+co?collection=BraUupJaUg</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ymlux.threadless.com/collections/quiet-luxury-cottagecore-dark-academia</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
 </urlset>
