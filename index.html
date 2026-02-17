@@ -31,6 +31,7 @@ layout: none
     details { margin:20px 0; border:1px solid #ddd; border-radius:6px; padding:10px; background:#fff; }
     summary { cursor:pointer; font-weight:bold; color:#c2185b; }
     footer { text-align:center; padding:40px 20px; color:#777; border-top:1px solid #ddd; margin-top:80px; font-size:0.95rem; }
+    .view-all { display:block; text-align:center; margin:20px 0; font-weight:600; color:#d81b60; }
     :root {--tp-red: #e53e3e;--tp-dark: #1a1a1a;--tp-gray: #4a4a4a;--tp-light: #f8f8f8;--tp-border: #e2e2e2;}
     .tp-top-bar { background:var(--tp-dark); color:white; font-size:0.84rem; padding:8px 0; text-align:center; }
     .tp-header { position:sticky; top:0; background:white; border-bottom:1px solid var(--tp-border); z-index:1000; }
@@ -67,7 +68,7 @@ layout: none
     <div class="latest-posts" style="margin-bottom: 50px;">
       <h2 style="color: #D4AF37; border-bottom: 2px solid #D4AF37;">Latest from the YMLux Blog</h2>
       <ul>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:10 %}
           <li style="margin-bottom: 20px; border-left: 4px solid #D4AF37; padding-left: 15px;">
             <h3 style="margin: 0;"><a href="{{ post.url }}" style="color: #222;">{{ post.title }}</a></h3>
             <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
@@ -77,6 +78,9 @@ layout: none
           <li style="color:#777; font-style:italic;">No blog posts yet – add some in the _posts folder!</li>
         {% endif %}
       </ul>
+      {% if site.posts.size > 0 %}
+        <a href="/blog/" class="view-all">View all blog posts →</a>
+      {% endif %}
     </div>
 
     <hr style="border: 0; height: 1px; background: #eee; margin: 40px 0;">
@@ -108,60 +112,7 @@ layout: none
       </ul>
       <h3>Popular Collections</h3>
       <ul>
-        <li><a href="https://www.ymlux.shop/sarcastic+mom+life+color+collection?collection=yQAvjSwMiU" target="_blank" rel="noopener noreferrer">Sarcastic Mom Life Color Collection</a></li>
-        <li><a href="https://www.ymlux.shop/sarcastic+irish+drinking+emblems?collection=mMFDqsGziQ" target="_blank" rel="noopener noreferrer">Sarcastic Irish Drinking Emblems</a></li>
-        <li><a href="https://www.ymlux.shop/color+intricate+affection+%26+romance?collection=hKAUiOCJTZ" target="_blank" rel="noopener noreferrer">Intricate Affection & Romance</a></li>
-        <li><a href="https://www.ymlux.shop/salty+%26+sweet+valentines+gifts?collection=kbqECCPmaJ" target="_blank" rel="noopener noreferrer">Salty & Sweet Valentine's Gifts</a></li>
-        <li><a href="https://www.ymlux.shop/festive+season+collection?collection=OpwSEPFkmD" target="_blank" rel="noopener noreferrer">Festive Season Collection</a></li>
-        <li><a href="https://www.ymlux.shop/minimalist+cat+humor+and+pet+parent?collection=WuYrPyMZTm" target="_blank" rel="noopener noreferrer">Minimalist Cat Humor & Pet Parent</a></li>
-        <li><a href="https://www.ymlux.shop/sarcastic+finance+and+tech+humor+co?collection=BraUupJaUg" target="_blank" rel="noopener noreferrer">Sarcastic Finance & Tech Humor</a></li>
-        <li><a href="https://www.ymlux.shop/the+obsession+vintage+apparrel?collection=yYFZIcnVyM" target="_blank" rel="noopener noreferrer">The Obsession Vintage Apparel</a></li>
-      </ul>
-      <h3>Men's Collections & Filters – All Variants</h3>
-      <details>
-        <summary>Expand to see all Men's URLs (~300+ variants)</summary>
-        <ul>
-          <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+new+apparel?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day New Apparel</a></li>
-          <li><a href="https://www.ymlux.shop/men+dad+joke+vault+sarcastic+father+day+polo+shirts?collection=DvoIokyJIM" target="_blank" rel="noopener noreferrer">Men Dad Joke Vault Sarcastic Father Day Polo Shirts</a></li>
-        </ul>
-      </details>
-    </section>
-
-    <h2>Spreadshirt Marketplace Shop</h2>
-    <p>In addition to your branded Spreadshop at ymlux.shop, you have designs published directly on the Spreadshirt marketplace (spreadshirt.com).</p>
-    <details>
-      <summary>Expand to see your Marketplace designs (6 listed)</summary>
-      <ul>
-        <li><strong>Be Mine Rose – Minimalist Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/be+mine+rose+t-shirt+minimalist+mens+premium+t-shirt-D30b9b2f4f3e1fac7?sellable=qob1qdczjmbr-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-        <li><strong>Long Week Skeleton – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/long+week+skeleton+t-shirt+mens+premium+t-shirt-D30bc2d7eb3df9525?sellable=qohx1g1qvdph-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-        <li><strong>Key to My Heart – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/key+to+my+heart+t-shirt+mens+premium+t-shirt-D30bb2090551b0aaf?sellable=qof084lnrwz3-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-        <li><strong>My Valentine Has Four Paws – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+valentine+has+four+paws+t-shirt+mens+premium+t-shirt-D30b9e43a10c394ea?sellable=qobkxo1tp7u2-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-        <li><strong>My Own Damn Valentine – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/my+own+damn+valentine+t-shirt+mens+premium+t-shirt-D30b9ceac1482dcaf?sellable=qobcj8mblwvj-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-        <li><strong>'Tis the Season to Be Tipsy – Men's Premium T-Shirt</strong><br><a href="https://www.spreadshirt.com/shop/design/tis+the+season+to+be+tipsy+t-shirt+mens+premium+t-shirt-D30b5d285fd01b097?sellable=qo0axqmb85g7-812" target="_blank" rel="noopener noreferrer">View on Spreadshirt Marketplace</a></li>
-      </ul>
-    </details>
-
-    <h2>Redbubble – YMLux Shop</h2>
-    <p><span class="platform">Main Shop:</span> <a href="https://www.redbubble.com/people/YMLux/shop" target="_blank">redbubble.com/people/YMLux/shop</a></p>
-    <h3>Featured Designs</h3>
-    <ul>
-      <li><a href="https://www.redbubble.com/i/poster/Key-to-My-Heart-T-Shirt-Minimalist-Padlock-Chain-Line-Art-Gift-Elegant-Intricate-Heart-Mechanism-Apparel-by-YMLux/176239358.LVTDI" target="_blank">Key to My Heart – Minimalist Padlock & Chain</a></li>
-      <li><a href="https://www.redbubble.com/i/poster/Majestic-Reindeer-T-Shirt-Poster-and-Mug-Symmetrical-Stag-Antlers-Intricate-Winter-Elegance-Holiday-Gift-by-YMLux/176450385.LVTDI" target="_blank">Majestic Reindeer – Symmetrical Stag Antlers</a></li>
-      <li><a href="https://www.redbubble.com/i/poster/My-Valentine-Has-Four-Paws-T-Shirt-Minimalist-Pet-Love-Line-Art-Gift-Elegant-Dog-Cat-Hand-Paw-Apparel-by-YMLux/176234424.LVTDI" target="_blank">My Valentine Has Four Paws – Pet Love Line Art</a></li>
-      <li><a href="https://www.redbubble.com/i/poster/Happy-New-Year-2026-Prosperity-Design-Festive-Champagne-Fireworks-Graphic-New-Year-s-Resolution-Goal-Setter-Gift-by-YMLux/175748355.LVTDI" target="_blank">Happy New Year 2026 – Champagne & Fireworks</a></li>
-    </ul>
-
-    <section id="ymlux-threadless">
-      <h2>YMLux on Threadless – Minimalist Wit & Elegant Humor</h2>
-      <p>Sarcastic mom/dad life, dry humor, timeless romance, holiday satire, quiet luxury aesthetics. High-contrast black line art tees, mugs, posters, blankets & more.</p>
-      <blockquote>"Art for those who appreciate both high aesthetics and dry wit. [...] high-contrast, minimalist black line art [...] self-aware, witty humor. Satirizing New Year's resolutions, celebrating simple moments, honoring timeless traditions."<footer>– YMLux About</footer></blockquote>
-      <div class="store-grid">
-        <div class="store-card">
-          <h3>Main & Featured</h3>
-          <ul>
-            <li><a href="https://ymlux.threadless.com/" target="_blank" rel="noopener noreferrer">YMLux Threadless Homepage</a></li>
-            <li><a href="https://ymlux.threadless.com/about" target="_blank" rel="noopener noreferrer">About the Shop</a></li>
-            <li><a href="https://ymlux.threadless.com/designs" target="_blank" rel="noopener noreferrer">All Designs</a></li>
+        <li><a href="https://www.ymlux.shop/sarcastic...(truncated 6533 characters)..._blank" rel="noopener noreferrer">All Designs</a></li>
             <li><a href="https://ymlux.threadless.com/collections" target="_blank" rel="noopener noreferrer">Collections</a></li>
             <li><a href="https://ymlux.threadless.com/gift-cards" target="_blank" rel="noopener noreferrer">Gift Cards</a></li>
           </ul>
