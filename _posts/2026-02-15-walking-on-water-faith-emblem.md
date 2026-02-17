@@ -106,4 +106,3 @@ Sustainable, made on demand manufacturing using eco friendly inks.
 
 Step forward in faith. He reaches still.
 
-(Word count: 2,156)
