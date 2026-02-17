@@ -31,36 +31,8 @@ layout: none
     details { margin:20px 0; border:1px solid #ddd; border-radius:6px; padding:10px; background:#fff; }
     summary { cursor:pointer; font-weight:bold; color:#c2185b; }
     footer { text-align:center; padding:40px 20px; color:#777; border-top:1px solid #ddd; margin-top:80px; font-size:0.95rem; }
-    .view-all { display:block; text-align:center; margin:20px 0; font-weight:600; color:#d81b60; }
-    :root {--tp-red: #e53e3e;--tp-dark: #1a1a1a;--tp-gray: #4a4a4a;--tp-light: #f8f8f8;--tp-border: #e2e2e2;}
-    .tp-top-bar { background:var(--tp-dark); color:white; font-size:0.84rem; padding:8px 0; text-align:center; }
-    .tp-header { position:sticky; top:0; background:white; border-bottom:1px solid var(--tp-border); z-index:1000; }
-    .tp-nav-container { max-width:1480px; margin:0 auto; padding:0 24px; display:flex; justify-content:space-between; align-items:center; height:72px; }
-    .tp-logo { font-family:'Playfair Display', serif; font-size:2.1rem; font-weight:700; color:var(--tp-red); letter-spacing:-1px; }
-    .tp-nav-links { display:flex; gap:28px; }
-    .tp-nav-link { font-weight:500; font-size:0.97rem; }
-    .tp-nav-link:hover { color:var(--tp-red); }
-    .tp-hero { background:linear-gradient(135deg, #111827 0%, #1f2937 100%); color:white; padding:100px 24px 80px; text-align:center; }
-    .tp-hero h1 { font-family:'Playfair Display', serif; font-size:clamp(2.8rem,7vw,5.6rem); margin-bottom:24px; line-height:1.05; }
-    .tp-hero p { font-size:1.28rem; max-width:720px; margin:0 auto 32px; opacity:0.92; }
-    .tp-btn { display:inline-block; background:var(--tp-red); color:white; font-weight:600; padding:16px 36px; border-radius:50px; transition:all 0.22s; }
-    .tp-btn:hover { background:#c53030; transform:translateY(-2px); }
-    .tp-categories { max-width:1480px; margin:80px auto; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; }
-    .tp-category-card { position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:12px; background:#f3f4f6; cursor:pointer; transition:transform 0.3s; }
-    .tp-category-card:hover { transform:scale(1.03); }
-    .tp-category-card a { display:block; height:100%; }
-    .tp-category-card img { width:100%; height:100%; object-fit:cover; transition:transform 0.4s ease; }
-    .tp-category-card:hover img { transform:scale(1.08); }
-    .tp-category-title { position:absolute; bottom:24px; left:24px; color:white; font-size:1.8rem; font-weight:700; text-shadow:0 3px 12px rgba(0,0,0,0.7); }
-    .tp-section-title { text-align:center; font-size:2.4rem; margin:100px 0 60px; font-family:'Playfair Display', serif; }
-    .tp-product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:32px; max-width:1480px; margin:0 auto; padding:0 24px; }
-    .tp-product-card { text-align:center; }
-    .tp-product-image { aspect-ratio:1/1.2; background:#f9fafb; border-radius:10px; overflow:hidden; margin-bottom:16px; }
-    .tp-product-image img { width:100%; height:100%; object-fit:contain; transition:transform 0.35s; }
-    .tp-product-card:hover .tp-product-image img { transform:scale(1.06); }
-    .tp-product-title { font-weight:600; margin-bottom:8px; }
-    .tp-product-price { color:#059669; font-weight:700; }
-    .note { background: #fff3cd; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; text-align: center; }
+    .view-all { display:block; text-align:center; margin:20px 0; font-weight:600; color:#d81b60; font-size:1.1rem; }
+    .view-all:hover { color:#ad1457; }
   </style>
 </head>
 <body>
@@ -79,7 +51,7 @@ layout: none
         {% endif %}
       </ul>
       {% if site.posts.size > 0 %}
-        <a href="/blog/" class="view-all">View all blog posts →</a>
+        <a href="https://blog.ymlux.shop/" class="view-all">View all blog posts →</a>
       {% endif %}
     </div>
 
