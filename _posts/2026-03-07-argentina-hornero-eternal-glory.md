@@ -2,7 +2,7 @@
 layout: post
 title: "The Architecture of Victory: Decoding the Argentina Hornero 'Eternal Glory' Aesthetic"
 date: 2026-03-07
-categories: [Faith, Lifestyle, Quiet Luxury]
+categories: [Sports, Lifestyle, Quiet Luxury]
 author: YMLux
 ---
 
