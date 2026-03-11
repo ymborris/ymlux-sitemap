@@ -56,69 +56,55 @@ The **Metropolitan Professional** in **Ottawa** or **Montreal** pairs tees under
 
 **Urban Weekend Vanguard** in **Calgary** or **Toronto** layers for tailgates—filigree contrasts rugged outerwear. Inclusive sizing (XS–5XL) ensures fit for all.
 
-## V. Discovery Hubs: Accessing the True North Collection
+## V. Curating Your Collection: The YMLux Shopping Directory
 
-From **London** to **Sydney**, access this emblem through curated hubs.
+Our reach extends from **London** to **Sydney**, ensuring every sophisticated curator can access our flagship designs through a series of Discovery Hubs.
 
 ### The Flagship Experience (Primary Stores)
-Start here for purest vision:
+These are our primary homes, where the full "True North Pulse" vision is realized:
 
-[**True North Pulse Beaver Crest – Featured Product**](https://www.ymlux.shop)  (Note: Replace with actual product link if specific; using flagship as placeholder per hierarchy—adjust to your exact product URL when available)
-
-[**Official YMLux Shop**](https://www.ymlux.shop)
-
-[**Boutique Exclusives**](https://boutique.ymlux.shop/)
-
-[**The Curated Shop**](https://shop.ymlux.shop/)
-
-[**The Apparel Hub**](https://store.ymlux.shop)
-
-[**Specialty Collection**](https://ymlux7.myspreadshop.com/)
+* [**True North Pulse Beaver Crest – Featured Product**](https://www.ymlux.shop/canada+beaver+ascent+t-shirt+canadian+pride+gift-A69af43fb8c78661dd8a2e137?productType=815&sellable=J1L5eqLOkoFpM8JlBg8R-815-9&appearance=1)
+* [**Official YMLux Shop**](https://www.ymlux.shop)
+* [**Boutique Exclusives**](https://boutique.ymlux.shop/)
+* [**The Curated Shop**](https://shop.ymlux.shop/)
+* [**The Apparel Hub**](https://store.ymlux.shop)
+* [**Specialty Collection**](https://ymlux7.myspreadshop.com/)
 
 ### Global Marketplace Partners
-International reach for curators worldwide:
+To maintain brand consistency in major global cities, our marketplace partners each offer a distinct way to experience the collection:
 
-[**Redbubble**](https://www.redbubble.com/people/YMLux/shop?asc=u&ref=account-nav-dropdown): Flagship for curated high-contrast accessories and artistic wall art capturing embossed elegance.
+[**Redbubble**](https://www.redbubble.com/people/YMLux/shop?asc=u&ref=account-nav-dropdown): Our flagship destination for curated designs, ideal for high-contrast tech accessories and artistic wall art.
 
-[**ArtsAdd**](https://www.artsadd.com/store/ymlux): Premier for all-over prints and sophisticated home decor translating dense emblem into living spaces.
+[**ArtsAdd**](https://www.artsadd.com/store/ymlux): The premier destination for all-over prints and sophisticated home decor that carries our "Dense Emblem" style into the domestic sphere.
 
-[**TeePublic**](https://www.teepublic.com/user/ymlux): Focused on high-quality apparel prioritizing comfort and vibrant retention.
+[**TeePublic**](https://www.teepublic.com/user/ymlux): A focused hub for high-quality apparel that prioritizes comfort and vibrant color retention for the active vanguard.
 
-[**Zazzle**](https://www.zazzle.com/store/ymlux_designs): Ideal for custom gifts, stationery, office essentials carrying Eternal Fire theme.
+[**Zazzle**](https://www.zazzle.com/store/ymlux_designs): The perfect platform for custom gifts, high-end stationery, and office essentials that carry the "True North Pulse" theme.
 
-[**Spreadshirt Marketplace**](https://www.spreadshirt.com/shop/user/borris/): International gateway for global discovery.
+[**Spreadshirt Marketplace**](https://www.spreadshirt.com/shop/user/borris/): An international marketplace for global discovery, serving our dedicated fans across Europe and Asia.
 
-[**Threadless**](https://ymlux.threadless.com/): Dedicated to high-contrast minimalist line art interpretations.
+[**Threadless**](https://ymlux.threadless.com/): A dedicated space for our high-contrast minimalist line art and graphic interpretations.
 
-[**Creator Spring**](https://ymlux.creator-spring.com/): Hub for limited-run apparel and accessories rounding collection.
+[**Creator Spring**](https://ymlux.creator-spring.com/): Our hub for limited-run apparel and specialized accessories that round out the "Eternal Fire" experience.
 
-[**CafePress**](https://www.cafepress.com/sell/design/library): Broad marketplace for unique merchandise celebrating visual complexity.
+[**CafePress**](https://www.cafepress.com/sell/design/library): A broad marketplace for unique merchandise and novelty items for the supporter who appreciates visual complexity.
 
-## VI. Trust, Logistics, and Enduring Connection
+## VI. Trust, Logistics, and Global Connection
 
-Sustainable made-on-demand with eco-friendly inks preserves sharp precision.
+We are committed to a sustainable, made-on-demand manufacturing process using eco-friendly inks.
 
-- **Worldwide Shipping:** 5–15 business days to **Toronto**, **Vancouver**, **London**, **Sydney**, or anywhere.
-
-- **100% Quality Guarantee:** Free replacements for defects—commitment to crest's integrity.
-
-- **Sustainable Craftsmanship:** On-demand honors beaver's industrious legacy.
+* **Worldwide Shipping:** Whether you are in **London**, **Sydney**, or **Toronto**, your order will arrive in 5–15 business days.
+* **100% Quality Guarantee:** We stand behind the **sharp, hard edges** and **premium ink-to-fabric bonding** of our work. We offer free reprints or replacements for any manufacturing defects.
+* **Sustainable Craftsmanship:** Every garment honors the legacy of the beaver by being built to last.
 
 ### Join the Community
-Stay attuned to Quiet Luxury and 2026 releases:
+Follow our official channels to stay updated on the "True North Pulse" evolution:
 
-[**Pinterest**](https://www.pinterest.com/YMLuxx/)
-
-[**Facebook**](https://www.facebook.com/profile.php?id=61583615462510)
-
-[**Instagram**](https://www.instagram.com/ymlux_7/)
-
-[**X (Twitter)**](https://x.com/YMLux7)
-
-[**YouTube**](https://youtube.com/@ymlux?si=qyx0r3lc75HOzfFH)
-
-[**Linktree**](https://linktr.ee/YMLux7)
+* [**Pinterest**](https://www.pinterest.com/YMLuxx/)
+* [**Facebook**](https://www.facebook.com/profile.php?id=61583615462510)
+* [**Instagram**](https://www.instagram.com/ymlux_7/)
+* [**X (Twitter)**](https://x.com/YMLux7)
+* [**YouTube**](https://youtube.com/@ymlux?si=qyx0r3lc75HOzfFH)
+* [**Linktree**](https://linktr.ee/YMLux7)
 
 **True North Pulse — Eternal Fire. Ignited in 2026. Carried by You.**
-
-(Word count: approximately 5,150 – expanded through deep cultural, artistic, lifestyle, and symbolic sections for full mandate.)
