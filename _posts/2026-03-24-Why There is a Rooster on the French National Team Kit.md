@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Is There a Rooster on the French National Team Kit? The Full Story of the Gallic Rooster in Football Heritage"
-date: 2026-03-23
+date: 2026-03-24
 categories: [Sports, Football, Quiet Luxury]
 author: YMLux
 ---
