@@ -2,7 +2,7 @@
 layout: post
 title: "The Netherlands Stands with Commanding Presence: Decoding the 'Leeuw van Oranje' Pennant-Style Crest in Quiet Luxury"
 date: 2026-03-24
-categories: [Faith, Lifestyle, Quiet Luxury]
+categories: [Sports, Football, Quiet Luxury]
 author: YMLux
 ---
 
