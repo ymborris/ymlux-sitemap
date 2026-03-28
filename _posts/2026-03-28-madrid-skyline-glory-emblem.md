@@ -2,7 +2,7 @@
 layout: post
 title: "Madrid Skyline Glory: Decoding the City Eternal Pride Emblem in Quiet Luxury"
 date: 2026-03-28
-categories: [Faith, Lifestyle, Quiet Luxury]
+categories: [Sports, Football, Quiet Luxury]
 author: YMLux
 ---
 
