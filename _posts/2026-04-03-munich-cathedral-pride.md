@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Munich Cathedral Pride: The Twin Towers of Bayern’s Heritage and Jamal Musiala as the Eternal Future"
 date: "2026-04-03"
 description: "Explore the Munich Cathedral soccer emblem celebrating historic city pride with Frauenkirche twin towers. Discover how Jamal Musiala represents Bayern Munich’s long-term future and why keeping the young star fit is essential for sustained Champions League success."
