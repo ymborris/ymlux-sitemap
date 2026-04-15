@@ -23,25 +23,25 @@ author: YMLux
 
 **Table of Contents**
 
-1. **Introduction: The Emblem of Resilience**  
-2. **The Roman Abramovich Foundation: Setting the Standard**  
-3. **The 2021 Champions League: A Tactical Masterclass**  
-4. **The Ownership Transition: From Certainty to Chaos**  
-5. **The Road to Jeddah: FIFA Club World Cup 2025**  
-6. **The Billion-Pound Experiment: Recruitment Strategy Analysis**  
-7. **Managerial Merry-Go-Round: From Tuchel to the Present**  
-8. **Tactical Stagnation: Why the Goals Dried Up**  
-9. **Key Matches of the Decline: A Forensic Review**  
-10. **Comparing Eras: The Ruthlessness of the Past vs. The Potential of the Future**  
-11. **The Cobham Connection: Youth Academy as a Lifeboat**  
-12. **Cultural & Fan Legacy: The City of Blue & White**  
-13. **Design Spotlight: Chelsea Blue Bridge Emblem**  
-14. **The Financial Fair Play (FFP) Shadow**  
-15. **Chelsea's Future: Rebuilding the Bridge**  
-16. **FAQ**  
-17. **Conclusion: Legacy Beyond Results**
+- [1. Introduction: The Emblem of Resilience](#introduction-the-emblem-of-resilience)
+- [2. The Roman Abramovich Foundation: Setting the Standard](#the-roman-abramovich-foundation-setting-the-standard)
+- [3. The 2021 Champions League: A Tactical Masterclass](#the-2021-champions-league-a-tactical-masterclass)
+- [4. The Ownership Transition: From Certainty to Chaos](#the-ownership-transition-from-certainty-to-chaos)
+- [5. The Road to Jeddah: FIFA Club World Cup 2025](#the-road-to-jeddah-fifa-club-world-cup-2025)
+- [6. The Billion-Pound Experiment: Recruitment Strategy Analysis](#the-billion-pound-experiment-recruitment-strategy-analysis)
+- [7. Managerial Merry-Go-Round: From Tuchel to the Present](#managerial-merry-go-round-from-tuchel-to-the-present)
+- [8. Tactical Stagnation: Why the Goals Dried Up](#tactical-stagnation-why-the-goals-dried-up)
+- [9. Key Matches of the Decline: A Forensic Review](#key-matches-of-the-decline-a-forensic-review)
+- [10. Comparing Eras: The Ruthlessness of the Past vs. The Potential of the Future](#comparing-eras-the-ruthlessness-of-the-past-vs-the-potential-of-the-future)
+- [11. The Cobham Connection: Youth Academy as a Lifeboat](#the-cobham-connection-youth-academy-as-a-lifeboat)
+- [12. Cultural & Fan Legacy: The City of Blue & White](#cultural--fan-legacy-the-city-of-blue--white)
+- [13. Design Spotlight: Chelsea Blue Bridge Emblem](#design-spotlight-chelsea-blue-bridge-emblem)
+- [14. The Financial Fair Play (FFP) Shadow](#the-financial-fair-play-ffp-shadow)
+- [15. Chelsea's Future: Rebuilding the Bridge](#chelseas-future-rebuilding-the-bridge)
+- [16. FAQ](#faq)
+- [17. Conclusion: Legacy Beyond Results](#conclusion-legacy-beyond-results)
 
-**Introduction**  
+**Introduction: The Emblem of Resilience**  
 Chelsea Football Club has always embodied **resilience, pride, and heritage**. The **Chelsea Blue Bridge Legacy T-Shirt** captures that spirit in a dense, ornate emblem: a stylized soccer ball with hexagonal detailing, layered behind abstract London bridge and skyline forms, framed by scalloped filigree edges.  
 
 This design is more than apparel; it is a visual history of a club that has spent the last two decades at the epicenter of global football. However, the narrative of the club in 2026 is one of stark contrasts. As Chelsea fans proudly wear their colors, the club itself has endured a dramatic journey: from being crowned the finest team on the planet in 2025 to fighting for a place in the Europa League or Conference League in 2026. The emblem's symbolism mirrors this trajectory — **triumph anchored in heritage**, but resilience tested by unprecedented adversity.  
