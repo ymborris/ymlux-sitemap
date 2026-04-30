@@ -43,8 +43,7 @@ author: YMLux
 
 ---
 
-## Why This Corridor Matters for the Belgian Football Fan {#why-this-corridor-matters}
-
+## Why This Corridor Matters for the Belgian Football Fan
 Picture this: you've landed at JFK, suitcase in hand, Belgium scarf around your neck, and three weeks stretching out in front of you like a clean tactical chalkboard. You want to see America, but you also want to do it the way a smart traveller does — without burning through your budget before you've even found a decent café to watch the Red Devils from.
 
 The stretch of the American East Coast between New York City, Philadelphia, and Boston is, without question, one of the most rewarding and most achievable budget travel routes in the entire United States. It is dense with football-watching culture, Belgian and European diaspora communities, and some of the most interesting urban history on the continent. And if you know how to navigate it properly — which is exactly what this guide is here to teach you — you can do the whole corridor for a fraction of what most tourists spend.
@@ -53,8 +52,7 @@ This is not a guide that glosses over the practical realities. Petrol prices, tr
 
 ---
 
-## Understanding the Northeast Corridor — What It Is and How It Works {#understanding-the-northeast-corridor}
-
+## Understanding the Northeast Corridor — What It Is and How It Works
 The **Northeast Corridor (NEC)** is a 735-kilometre (456-mile) rail line running from Washington D.C. to Boston, passing through Baltimore, Philadelphia, New York, and New Haven. It is operated primarily by **Amtrak**, the US national rail service, and is the most heavily used passenger rail corridor in the United States, carrying approximately 12 million passengers per year.
 
 For the budget-conscious Belgian traveller, the NEC is your single most important piece of infrastructure. Here is what you must know:
@@ -77,7 +75,7 @@ Avoid flying between these cities. When you factor in airport arrival time, secu
 
 ---
 
-## New York City: The Belgian Fan's Base Camp {#new-york-city-the-base-camp}
+## New York City: The Belgian Fan's Base Camp 
 
 New York is where most transatlantic flights land, and it is an entirely logical starting point for your Northeast corridor journey. The city has an enormous Belgian and broader European expat community, particularly in Manhattan and Brooklyn, which means finding a bar showing Jupiler Pro League or EURO qualifiers is far more achievable here than it would be in, say, Phoenix.
 
@@ -95,8 +93,7 @@ Avoid the restaurants immediately surrounding Times Square and Penn Station. The
 
 ---
 
-## Getting from New York to Philadelphia on a Budget {#new-york-to-philadelphia}
-
+## Getting from New York to Philadelphia on a Budget
 The New York–Philadelphia leg is the shortest on the corridor: approximately 150 kilometres (93 miles) and around 1 hour 20 minutes on the Northeast Regional. It is also the cheapest.
 
 **Your cheapest legitimate options in order:**
@@ -109,7 +106,7 @@ For anyone prioritising predictability — especially if you have a match to wat
 
 ---
 
-## Philadelphia: More Than a Stopover {#philadelphia-more-than-a-stopover}
+## Philadelphia: More Than a Stopover 
 
 Philadelphia is frequently treated by international travellers as a place they pass through on the way to somewhere else. This is a significant mistake, and Belgian football fans in particular have specific reasons to spend at least one full day here.
 
@@ -126,7 +123,7 @@ Philadelphia accommodation is noticeably cheaper than New York. Budget hostels r
 
 ---
 
-## Getting from Philadelphia to Boston on a Budget {#philadelphia-to-boston}
+## Getting from Philadelphia to Boston on a Budget 
 
 This is the longest leg: approximately 500 kilometres (310 miles) and around 5 to 6 hours on the Amtrak Northeast Regional. It is also where booking ahead delivers the most dramatic savings.
 
@@ -140,8 +137,7 @@ One practical consideration: the **combined** New York–Philadelphia + Philadel
 
 ---
 
-## Boston: Where Football Culture Meets Colonial History {#boston-football-culture}
-
+## Boston: Where Football Culture Meets Colonial History
 Boston is, by any reasonable measure, the most European-feeling city in the United States in terms of its street layout, its architectural scale, and its relationship to walkable urban life. Its streets follow the logic of a pre-industrial city — winding, dense, full of corners — rather than the grid logic of Manhattan or Philadelphia's more organised layout. For a European traveller, it feels immediately legible in a way that many American cities do not.
 
 Boston also has a substantial European immigrant heritage and a strong pub culture, which means watching football at a reasonable hour (given the time zone difference for European matches) is entirely practical here.
@@ -157,7 +153,7 @@ Boston accommodation is expensive by American standards — comparable to New Yo
 
 ---
 
-## Where to Watch Belgian National Team and European Football Matches {#where-to-watch-matches}
+## Where to Watch Belgian National Team and European Football Matches 
 
 All three cities on this corridor have well-established football-watching bar cultures. Here is what to know:
 
@@ -173,16 +169,14 @@ For context on why European football culture translates so powerfully to the Ame
 
 ---
 
-## Packing and Wearing Your Identity While Travelling {#packing-and-wearing-your-identity}
-
+## Packing and Wearing Your Identity While Travelling 
 There is a specific pleasure in travelling with your identity visible — in knowing that wherever you are, whether it is a coffee shop in Brooklyn or a bar in Boston at 7am watching the Red Devils, someone might recognise what you represent. Belgian football culture has a proud and distinctive visual identity: the black, yellow, and red of the national flag, the Lion of Belgium that has appeared on the national crest since the country's founding in 1830.
 
 For the well-travelled fan, the piece of kit you pack matters. You want something that travels well, holds its print through dozens of airport security conveyor belts and hostel laundry runs, and looks genuinely considered rather than like a mass-produced tourist souvenir.
 
 ---
 
-## The YMLux Perspective {#the-ymlux-perspective}
-
+## The YMLux Perspective 
 At YMLux, we believe that how you represent your identity when you travel is as much a statement about what you value as what you wear to a match. The Belgian Lion has a history that stretches back to medieval heraldry — it has been the symbol of the County of Flanders since the 12th century, adopted into the national crest at Belgium's founding, and worn by the Red Devils through some of the most memorable moments in European football history, from the 1986 World Cup semi-final to the 2018 third-place finish in Russia.
 
 Wearing that symbol well — on something crafted with real attention to design, printed with inks that bond properly to the fabric, on pre-shrunk ultra-soft cotton that keeps its shape — is a quiet statement of pride that resonates differently than a plastic stadium scarf picked up at an airport.
@@ -191,7 +185,7 @@ Just as the Netherlands carries their commanding presence through distinctive he
 
 ---
 
-## Design Spotlight — The Belgian Lion Crest {#design-spotlight}
+## Design Spotlight — The Belgian Lion Crest 
 
 The **Belgium Lion Crest T-Shirt** from YMLux is built in the tradition of the Dense Emblem style — intricate, ornate layered digital illustration with sharp, hard edges and zero drop shadows. The Belgian Lion at the centre of the design is rendered with ornamental detailing that references both medieval heraldic tradition and the clean visual language of modern football crest design. The national colours — deep black, warm antique gold, and the bold red of the Belgian flag — are balanced with precise compositional weight, creating a design that reads clearly at a distance and rewards a closer look.
 
@@ -205,8 +199,7 @@ The same pride of national identity that drives Belgian fans to travel halfway a
 
 ---
 
-## FAQ {#faq}
-
+## FAQ
 **Q1: What is the cheapest way to travel between New York, Philadelphia, and Boston?**
 For the most budget-friendly option on each leg, pre-booked Amtrak Northeast Regional Saver fares (booked 7–14 days out) give you the best combination of price and reliability. Coach services like Megabus and FlixBus are cheaper but significantly slower. Flying between these cities is almost never faster or cheaper when total door-to-door travel time is calculated.
 
@@ -224,7 +217,7 @@ The Lion of Belgium has its origins in the heraldic tradition of the County of F
 
 ---
 
-## Conclusion {#conclusion}
+## Conclusion 
 
 The New York–Philadelphia–Boston corridor is, for the well-prepared Belgian football fan, one of the most rewarding travel experiences in the United States. It is compact enough to do properly in a week, rich enough in football culture, food, history, and urban character to reward much longer stays, and cheap enough — when navigated with the knowledge in this guide — to leave money in your pocket for the things that actually matter.
 
